@@ -6,7 +6,7 @@
  * (You may choose to either include or exclude the movie 'AMERICAN CIRCUS' in the results.)
  */
 
--- AMERICAN CIRCUS has actor id
+-- AMERICAN CIRCUS has film_id 21
 SELECT
 	title
 FROM film
