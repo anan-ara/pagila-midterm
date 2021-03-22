@@ -11,7 +11,6 @@ SELECT
 	title
 FROM film
 INNER JOIN film_actor USING (film_id)
-INNER JOIN actor USING (actor_id)
 WHERE actor_id in (
 	SELECT
 		actor_id
